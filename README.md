@@ -4,8 +4,9 @@ GitHub 上のリポジトリから指定した Git 参照のファイルツリ�
 
 主に NotebookLM のノートブック作成時にソースとしてリポジトリのファイルツリーを追加するために利用する。
 
-> [!NOTE]
-> Zenn で記事を作成するために作成したスクリプト。コードブロックに直接記述するのは手間なので、リポジトリのファイルを取得して記事に埋め込む形をとる。
+## 関連記事
+
+- [GitHub のリポジトリを 1 ファイルにまとめるとノートブックにしやすい](https://zenn.dev/hankei6km/articles/github-repo-as-notebooklm-source)
 
 ## 使い方
 
@@ -46,6 +47,13 @@ scripts/to-html/repo-files.sh hankei6km shell-script-gh-repo-files main > "hanke
 作成した HTML ファイルを Google ドライブへアップロードしファイルを右クリックして「アプリで開く / Google ドキュメント」を選択することで、Google ドキュメントファイルが作成される。
 
 NotebookLM でノートブックを作成するときに、「ドライブ」からドキュメントを追加することでソースとして利用できる。
+
+## 関連リポジトリ
+
+GAS で同じようなことを実現するライブラリーなど。
+
+- https://github.com/hankei6km/gas-gh-repo-files
+- https://github.com/hankei6km/gas-webapp-gh-repo-files
 
 ## ライセンス
 
